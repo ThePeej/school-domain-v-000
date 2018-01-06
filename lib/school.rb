@@ -1,5 +1,6 @@
 class School
 
+
 ROSTER = {}
 
 def initialized(name)
@@ -7,5 +8,8 @@ def initialized(name)
 
 end
 
+def roster
+  ROSTER
+end
 
 end
