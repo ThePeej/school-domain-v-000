@@ -1,5 +1,6 @@
 class School
 
+ROSTER = {}
 
 def initialized(name)
   @name=name
