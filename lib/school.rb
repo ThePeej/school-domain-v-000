@@ -6,7 +6,7 @@ def initialized
 end
 
 def roster
-  roster
+  @roster
 end
 
 end
