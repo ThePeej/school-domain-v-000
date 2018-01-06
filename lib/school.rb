@@ -18,7 +18,7 @@ class School
   end
 
   def sort
-      binding.pry
+    binding.pry
   end
 
 end
