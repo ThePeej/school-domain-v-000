@@ -3,11 +3,11 @@ attr_accessor :name
 
 def initialized(name)
   @name=name
-  ROSTER = {}
+  @roster = {}
 end
 
 def roster
-  ROSTER
+  roster
 end
 
 end
