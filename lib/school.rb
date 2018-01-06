@@ -18,7 +18,8 @@ class School
   end
 
   def sort
-
+    self.sort_by {|grade| grade[:roster]}
+    
   end
 
 end
