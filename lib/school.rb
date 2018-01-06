@@ -23,6 +23,7 @@ class School
     @roster.sort.to_h.each do |grade, names|
       binding.pry
       @roster[grade]= names.sort
+      @roster[grade]
     end
   end
 
