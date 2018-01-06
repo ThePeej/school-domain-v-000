@@ -21,7 +21,7 @@ class School
 
   def sort
     binding.pry
-    @roster.each do |grade, names|
+    @roster.sort.each do |grade, names|
       names.sort
     end
   end
