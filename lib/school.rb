@@ -9,20 +9,21 @@ class School
   end
 
   def add_student(name, grade)
-    if @roster[grade] == nil
-      @roster[grade] = []
+    if roster[grade] == nil
+      roster[grade] = []
     end
-    @roster[grade] << name
+    roster[grade] << name
   end
 
   def grade(grade)
-    @roster[grade]
+    roster[grade]
   end
 
   def sort
-    @roster.sort.to_h.each do |grade, names|
-      self.roster[grade].sort
+    sorted = {}
+    roster.sort.to_h.each do |grade, names|
+      roster[grade] = names.sort
     end
   end
-
+  sorted
 end
