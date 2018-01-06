@@ -18,7 +18,7 @@ class School
   end
 
   def sort
-    self.sort {|grade| grade[:roster]}
+    self.sort {|grade| @roster[grade]}
 
   end
 
