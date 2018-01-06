@@ -7,7 +7,7 @@ def initialized(name)
 end
 
 def roster
-  @roster
+  self.roster
 end
 
 end
